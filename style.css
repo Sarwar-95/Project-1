@@ -1,0 +1,81 @@
+body
+{
+    font-family: font-family: 'Otomanopee One', sans-serif;
+    margin :0;
+}
+h1
+{
+    font-size: 40px;
+}
+.flexible-container
+{
+    display: flex;
+    margin-bottom: 100px;
+}
+.orange
+{
+    color: orange;
+}
+.half-width
+{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img
+{
+    width: 90%;
+}
+.link-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700px;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+.top-banner
+{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.big-dream
+{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.experience-area
+{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item
+{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 40px grey;
+}
+#full-stack
+{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(255, 0, 191),cyan);
+    border-image-slice : 1;
+}
+#baby-web
+{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(49, 0, 128),rgb(255, 0, 106));
+    border-image-slice: 1;
+}
+footer
+{
+    text-align: center;
+    color: rebeccapurple;
+}
